@@ -23,7 +23,7 @@ from functions import load_sensitive_words, contains_sensitive_words, update_gen
 
 essayRating_blueprint = Blueprint("essayRating", __name__)
 
-openai.api_key = "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"
+openai.api_key = "sk-***********"
 openai.Model.list()
 
 @contextmanager
